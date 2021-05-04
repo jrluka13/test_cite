@@ -1,0 +1,26 @@
+.container {
+  height: fit-content;
+  margin: 60px 20% 0 20%;
+}
+.container__block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card {
+  margin: 0 10px 20px 10px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  padding: 0 10px 0 10px;
+}
+.card__title {
+  text-align: center;
+  color: blanchedalmond;
+}
+.card__text {
+  width: 100%;
+  text-align: center;
+  overflow-wrap: break-word;
+  width: 100%;
+}

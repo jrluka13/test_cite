@@ -1,0 +1,27 @@
+.navDiv {
+  height: 50px;
+}
+.nav {
+  display: flex;
+  background: silver;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+a {
+  margin: 0px 20px 0px 10px;
+  cursor: pointer;
+  color: rgb(166, 82, 245);
+}
+.nav__btn-log{
+  text-align:right;
+  background: red;
+  border: 1px solid red;
+  border-radius: 10%;
+  color: white;
+}
+a:hover{
+  color: green;
+}
